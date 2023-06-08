@@ -1,0 +1,59 @@
+body{
+	font-family: 'Lora', serif !important;
+	background-color: #025464 !important;
+	word-break: break-word;
+}
+
+h1{
+	color : #E57C23 !important;
+}
+
+html,body{
+	height: 100%;
+}
+
+@media (max-width: 290px) {
+  .small-font{
+    font-size: 3rem !important;
+  }
+}
+
+h1.text-light{
+	text-decoration: underline wavy orange;
+	padding-bottom: 2cm;
+	text-underline-offset: 0.4em;
+}
+
+form{
+	background-color:  #999999 !important;
+}
+
+img.h-40{
+	width:50%;
+}
+
+.max-width{
+	width:100%;
+	height:auto;
+	height:auto;
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    width: 100% ;
+  }
+}
+
+@media(min-width: 768px){
+	.carousel{
+		width: 70%;
+	}
+}
+
+.text-orange{
+	color:orange;
+}
+
+.bg-orange{
+	background-color: #F08937;
+}
